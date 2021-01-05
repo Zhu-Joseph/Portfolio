@@ -1,64 +1,62 @@
-
-/* 
-	STYLE.CSS:
-	One stylesheet to rule them all.
-	
-	selector { property:value }
-	
-*/
-
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lato);
+/* general formating */
+img {
+  height: 340px;
+  width: auto;
+}
 
 body {
-  background-color: #5f5345;
+  background: #99ffff);
 }
- 
-.pageContainer {
-  width: 940px;
-  margin: 20px auto 0 auto;
-  padding: 20px;
-  background-color: #fff;
-}
- 
-.imageContainer {
-  float: left;
-  width: 620px;
-}
- 
-.textContainer {
-  float: left;
-  width: 300px;
-  margin-left: 20px;
-  margin-top: 20px;
+/* header css styling */
+header {
+  text-align: center;
 }
 
-img {
-  width: 100%;
-}
- 
 h1 {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 64px;
-  color: #8b1b00;
+  background: #00cccc;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
- 
-p, li {
-  font-family: 'Lato', sans-serif;
-  font-size: 22px;
-  color: #51473b;
+.circle {
+  width: 300;
+  border-radius: 100%;
 }
 
-
-
-
-/* ---- Advanced ---- */
-/* This tag is a bit advanced for this lesson,  
-   but is needed to wrap the pageContainer 
-   around any sized content that is floated within it. */
-
-.pageContainer:after { 
-  content: " ";
-  display: table;
-  clear: both;
+header p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
- 
+
+/* body styling */
+main h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+main p, main h3, body ul {
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.right {
+  text-align: right;
+}
+
+body ul {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+/* footer styling */
+footer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer p{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+footer ol {
+  font-weight: 550;
+  padding: 20px;
+}
+
